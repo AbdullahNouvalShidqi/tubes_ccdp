@@ -1,6 +1,6 @@
-import 'package:tubes_ccdp/abstract/fauna.dart';
-import 'package:tubes_ccdp/abstract_factory/fauna_factory.dart';
-import 'package:tubes_ccdp/tipe_fauna/burung.dart';
+import 'package:abstract_factory/abstract/fauna.dart';
+import 'package:abstract_factory/abstract_factory/fauna_factory.dart';
+import 'package:abstract_factory/tipe_fauna/burung.dart';
 
 class BurungFactory extends FaunaFactory {
   String nama;

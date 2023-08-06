@@ -1,6 +1,6 @@
-import 'package:tubes_ccdp/abstract/flora.dart';
-import 'package:tubes_ccdp/abstract_factory/flora_factory.dart';
-import 'package:tubes_ccdp/tipe_flora/tumbuhan_berbunga.dart';
+import 'package:abstract_factory/abstract/flora.dart';
+import 'package:abstract_factory/abstract_factory/flora_factory.dart';
+import 'package:abstract_factory/tipe_flora/tumbuhan_berbunga.dart';
 
 class TumbuhanBerbungaFactory extends FloraFactory {
   String nama;

@@ -1,9 +1,9 @@
-import 'package:tubes_ccdp/abstract/fauna.dart';
+import 'package:abstract_factory/abstract/fauna.dart';
 
-class Mamalia extends Fauna {
+class Burung extends Fauna {
   String gambar;
 
-  Mamalia(
+  Burung(
     String nama,
     String deskripsi,
     String habitat,

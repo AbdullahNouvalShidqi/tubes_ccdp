@@ -1,4 +1,4 @@
-import 'package:tubes_ccdp/abstract/fauna.dart';
+import 'package:abstract_factory/abstract/fauna.dart';
 
 abstract class FaunaFactory {
   Fauna createFauna();
